@@ -149,3 +149,16 @@ function updateTotals() {
     alert("Não foi possível atualizar os totais");
   }
 }
+//Evento que captura itens da lista
+expenseList.addEventListener("click", function (event) {
+  //Verifica se o evento foi disparado
+  if (event.target.classList.contains("remove-icon")) {
+    //Obten a li pai do elemento clicado
+
+    const item = event.target.closest(".expense");
+
+    //remove o item da lista
+    item.remove();
+  }
+  updateTotals();
+});
