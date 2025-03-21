@@ -1,4 +1,6 @@
-Refund - Sistema de Solicitação de Reembolso
+# Refund - Sistema de Solicitação de Reembolso
+
+<img src="refundimg.jpg" alt="Image do Projeto" width="800"/>
 
 Este projeto foi desenvolvido para ajudar os alunos da Rocketseat estudarem JavaScript, manipulando o DOM e trabalhando com eventos em formulários. O sistema permite adicionar despesas e exibi-las em uma lista interativa.
 
